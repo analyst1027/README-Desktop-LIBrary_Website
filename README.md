@@ -1,157 +1,136 @@
 # customer_behavior_analysis
 Business Analytics project showcasing customer behavior analysis using Python, SQL and PowerBI
 
-Customer Shopping Behavior Analysis — Complete Business Analytics Project
-📌 Overview
+# 📊 Customer Shopping Behavior Analysis  
+A Complete End-to-End Business Analytics Project
 
-This project presents a full end-to-end business analytics workflow, starting from raw data ingestion in Python to generating business-ready insights through SQL analysis, interactive Power BI dashboards, and a final presentation built using Gamma.
-The objective is to decode customer shopping patterns and translate them into actionable business intelligence that supports strategic decision-making.
+---
 
-📂 Dataset
+## 🌐 Overview
+This repository presents a comprehensive business analytics lifecycle—from raw data ingestion and exploratory analysis in Python, to running SQL queries in PostgreSQL, building an interactive Power BI dashboard, and delivering a stakeholder-ready presentation using Gamma.
 
-Name: Customer Shopping Behavior
+The objective is to uncover customer shopping trends, behaviors, and actionable insights that can drive strategic decision-making for retail businesses.
 
-Format: CSV
+---
 
-Records: ~3,900+ rows (cleaned and validated)
+## 📂 Dataset
+- **Name:** Customer Shopping Behavior  
+- **Format:** CSV  
+- **Rows:** ~3,900+  
+- **Includes:**  
+  - Customer demographics  
+  - Purchase behavior  
+  - Payment modes  
+  - Shopping frequency  
+  - Geographic insights  
+  - Product category patterns  
 
-Features Include:
+The dataset is analyzed in the Jupyter Notebook attached in this repository.
 
-Customer demographics
+---
 
-Purchase behavior
+## 🛠 Tools & Technologies
 
-Payment preference
+| Category | Tools |
+|---------|-------|
+| **Programming** | Python, Jupyter Notebook |
+| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, SQLAlchemy |
+| **Database** | PostgreSQL, pgAdmin 4 |
+| **SQL** | Aggregations, Joins, CTEs, Window Functions |
+| **Visualization** | Power BI |
+| **Presentation** | Gamma |
+| **Reporting** | Power BI Report (PBIX) |
 
-Shopping frequency
+---
 
-Location insights
+## 🔍 Project Workflow
 
-Product category patterns
+### **1. Data Loading (Python)**
+- Loaded dataset using Pandas  
+- Conducted schema validation, structural checks, and initial preview  
 
-This dataset is attached and also utilized directly in the Jupyter Notebook.
+### **2. Exploratory Data Analysis (EDA)**
+- Descriptive statistics  
+- Customer segmentation  
+- Category-wise analysis  
+- Payment mode trends  
+- Visualization using Matplotlib & Seaborn  
 
-🛠 Tools & Technologies
-Category	Tools
-Programming	Python (Jupyter Notebook)
-Libraries Used	Pandas, NumPy, Matplotlib, Seaborn, SQLAlchemy
-Database	PostgreSQL + pgAdmin 4
-SQL	DDL, DML, Aggregations, Joins, Window Functions
-Visualization	Power BI
-Presentation	Gamma
-Reporting	Power BI Report + Executive Summary
-🔍 Project Workflow (Step-by-Step)
-1. Data Loading (Python)
+### **3. Data Cleaning**
+- Duplicate removal  
+- Handling missing values  
+- Transformations & standardization  
+- Encoding categorical variables  
 
-Loaded the dataset using Pandas
+### **4. SQL Analysis in PostgreSQL**
+Using `customer_behavior_postgres.sql`, the following insights were generated:
+- Spending analysis  
+- Most profitable customer segments  
+- Top product categories  
+- Location-based demand trends  
+- Payment preference distribution  
 
-Performed initial structural checks (info(), head(), schema validation)
+Data was inserted into PostgreSQL via SQLAlchemy for querying and dashboard integration.
 
-2. Exploratory Data Analysis (EDA)
+### **5. Power BI Dashboard**
+A multi-page interactive dashboard was built covering:
+- Sales & revenue metrics  
+- Demographic distribution  
+- Category & product insights  
+- Customer loyalty/retention behavior  
+- Payment mode patterns  
+- Trend lines & forecasting  
 
-Summary statistics, missing value treatment, outlier profiling
+### **6. Final Report & Presentation**
+A professionally designed **Gamma Presentation** and **Power BI Report** summarizing:
+- Executive highlights  
+- KPIs  
+- Visual insights  
+- Strategic recommendations  
 
-Customer segmentation visuals
+---
 
-Category-wise purchase trends
+## 📊 Key Business Insights
 
-Seasonal and payment behavior decomposition
+- Identified high-value customers responsible for a major revenue share  
+- Mapped strong-performing and weak-performing locations  
+- Revealed the most profitable product categories  
+- Highlighted repeat purchase behavior and retention indicators  
+- Identified improvement opportunities in marketing and customer experience  
 
-3. Data Cleaning
+---
 
-Removed duplicates
+## ▶️ How to Run the Project
 
-Standardized column formats
-
-Imputed missing values (mean/median/mode depending on variable type)
-
-Encoded categorical variables where needed
-
-4. Database Integration (PostgreSQL)
-
-Created a PostgreSQL database
-
-Loaded the cleaned dataset using SQLAlchemy
-
-Executed custom SQL queries to uncover:
-
-Spending patterns
-
-High-value customer segments
-
-Most profitable categories
-
-Payment mode distribution
-
-Location-wise demand insights
-
-5. Power BI Dashboard
-
-Designed a multi-page, interactive dashboard showcasing:
-
-Sales Overview
-
-Demographics Breakdown
-
-Category & Product Insights
-
-Customer Behavior Analysis
-
-Payment Behavior Heatmaps
-
-Forecasting & Trend Lines
-
-6. Report & Presentation
-
-Built a structured, insights-driven Power BI Report
-
-Prepared a forward-looking Gamma Presentation summarizing:
-
-Executive insights
-
-Key KPIs
-
-Actionable recommendations
-
-Visual storytelling for stakeholders
-
-📊 Key Insights (Business Results)
-
-Identified core customer segments contributing to majority revenue
-
-Uncovered high-conversion product categories
-
-Analyzed customer repeat behavior & loyalty patterns
-
-Mapped geographically strong & weak performing regions
-
-Revealed opportunities to optimize marketing, pricing, and inventory planning
-
-▶️ How to Run the Project
-1. Clone the Repository
-git clone <your-repository-link>
+### **1. Clone the Repository**
+```bash
+git clone <your-repo-link>
 cd customer-shopping-behavior-analysis
-
-2. Run Jupyter Notebook
+2. Open the Jupyter Notebook
+bash
+Copy code
 jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
-
 3. Set Up PostgreSQL
+Create a new database in PostgreSQL
 
-Import the SQL file: customer_behavior_postgres.sql
+Run the SQL file:
 
-Run all queries to reproduce analytical results
+sql
+Copy code
+\i customer_behavior_postgres.sql
+Ensure Python connection settings match your database credentials
 
-4. View Dashboard (Power BI Desktop)
+4. Open Power BI Dashboard
+Load the .pbix file from the dashboard/ folder
 
-Open the .pbix file
+Refresh the data source if required
 
-Refresh data source connection if required
-
-5. Presentation
-
-Open the Gamma link or use the exported PDF/PPT version
+5. View the Presentation
+Open the Gamma link or PDF in the presentation/ folder
 
 📁 Repository Structure
+pgsql
+Copy code
 ├── data/
 │   └── customer_shopping_behavior.csv
 ├── notebooks/
@@ -161,9 +140,10 @@ Open the Gamma link or use the exported PDF/PPT version
 ├── dashboard/
 │   └── PowerBI_Customer_Behavior.pbix
 ├── presentation/
-│   └── Gamma_Presentation.pdf (or link)
+│   └── Gamma_Presentation.pdf  (or link)
 └── README.md
-
 📞 Contact
+For project collaboration, analytical roles, or professional inquiries, please feel free to connect.
 
+abhishekmilwar1027@gmail.com
 For collaboration or opportunities, feel free to reach out.
